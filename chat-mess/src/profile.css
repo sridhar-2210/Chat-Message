@@ -1,0 +1,60 @@
+.profilei{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(181,181,181);
+  height: 3.5rem;
+}
+.profileinfo{
+  display: flex;
+  flex-direction: column;
+}
+.profilelogos{
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  position: relative;
+}
+.profilelogo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  font-size: large;
+  opacity: 0.7;
+  background-color: blue;
+}
+.profiletitle{
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.profilestatus{
+  margin: 0;
+  color: green;
+  text-align: left;
+  padding: 0;
+}
+.profiledot{
+  background-color: green;
+  position: absolute;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  right: 0.03rem;
+  bottom: 0.2rem;
+  border: 1px solid white;
+}
+.profileidot{
+  background-color: rgb(181,181,181);
+  position: absolute;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  right: 0.03rem;
+  bottom: 0.2rem;
+  border: 1px solid white;
+}

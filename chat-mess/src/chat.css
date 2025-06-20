@@ -1,0 +1,9 @@
+.chati{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  border: 1px solid rgb(181, 181, 181);
+  position: relative;
+  height: 10rem;
+  overflow: auto;
+}

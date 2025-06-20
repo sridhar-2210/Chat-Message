@@ -1,0 +1,36 @@
+.MyBox{
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  right: 0;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.OtherBox{
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  left: 0;
+  margin-right: auto;
+  margin-left: 1rem;
+}
+.MyText{
+  text-align: left;
+  padding: 0.8rem;
+  background-color: rgb(82, 70, 212);
+  border-radius: 1.5rem 1.5rem 0rem 1.5rem;
+}
+.OtherText{
+  text-align: left;
+  padding: 0.8rem;
+  background-color: rgb(181, 181, 181);
+  border-radius: 1.5rem 1.5rem 1.5rem 0rem;
+}
+.Mytime{
+  color: black;
+  text-align: right;
+}
+.Othertime{
+  color: black;
+  text-align: left;
+}

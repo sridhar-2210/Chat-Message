@@ -1,0 +1,11 @@
+html,body,#root {
+  height: 100%;
+  margin: 0 auto;
+  text-align:center;
+  scrollbar-color:  rgb(155, 155, 155) white;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

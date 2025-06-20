@@ -1,0 +1,77 @@
+.friendi{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(181, 181, 181);
+  padding: 0.5rem;
+}
+.friendiy{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(181, 181, 181);
+  background-color: rgb(219, 219, 219);
+  padding: 0.5rem;
+}
+.friendi:hover{
+  cursor: pointer;
+  background-color: rgb(219, 219, 219);
+}
+.friendlogo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  font-size: large;
+  opacity: 0.7;
+}
+.statusonline{
+  background-color: green;
+  position: absolute;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  right: 0.03rem;
+  bottom: 0.2rem;
+  border: 1px solid white;
+}
+.statusoffline{
+  background-color: rgb(181, 181, 181);
+  position: absolute;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  right: 0.03rem;
+  bottom: 0.2rem;
+  border: 1px solid white;
+}
+.logos{
+  margin: 0.5rem;
+  position: relative;
+}
+.info{
+  margin: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title{
+  font-weight: bolder;
+}
+.time{
+  font-size: small;
+}
+.last{
+  font-size: small;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 14rem;
+}

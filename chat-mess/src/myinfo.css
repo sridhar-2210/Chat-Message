@@ -1,0 +1,32 @@
+.pop {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  width: 250px;
+  max-height: 90vh;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: black;
+  border: 1px solid rgb(181, 181, 181);
+  padding: 16px;
+  overflow-y: auto;
+  border-radius: 8px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.Bax{
+  border: 1px solid rgb(181, 181, 181);
+  font-weight: bolder;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+.tp{
+  border: 1px solid rgb(181, 181, 181);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: lighter;
+  padding: 1rem;
+}

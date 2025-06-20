@@ -1,0 +1,18 @@
+.listi{
+  flex-grow: 1;
+  border: 1px solid rgb(181, 181, 181);
+}
+.listi {
+  height:10vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.friends-grid {
+  display: flex;
+  flex-direction: column;
+}
+.listi::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
